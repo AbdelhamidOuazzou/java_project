@@ -16,4 +16,25 @@ public class Compte {
 
     }
 
+public int getNumCompte() {
+        return numCompte; 
+    }
+    public double getSolde() {
+        return solde;
+    }
+
+    public LocalDateTime getDateCreation() {
+        return dateCreation;
+    }
+ 
+    public int getid_client() {
+        return id_client;
+    }
+
+    @Override
+    public String toString(){
+        return "id de client: "+id_client+"le solde est : "+solde+"date de creation est : " +dateCreation;
+    }
+
+
 }
